@@ -12,5 +12,42 @@ body{
     background-size: cover;
     background-position: center;
     background-color: #00000080; 
-    background-blend-mode: darken;   
+    background-blend-mode: darken; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+}
+h1{
+    color: #ffffff;
+    font-size: 100px;
+    text-shadow: 0.5rem 0.5rem #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.descricao{
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 0.3rem 0.3rem #000000;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+#learn-more{
+    background-color: #FAE12C;
+    width: 200px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
