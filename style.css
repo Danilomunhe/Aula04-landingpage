@@ -27,15 +27,13 @@ main{
 }
 h1{
     color: #ffffff;
-    font-size: 100px;
-    text-shadow: 0.5rem 0.5rem #000000;
+    font-size: clamp(40px, 8vw, 100px);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 .descricao{
-    font-size: 50px;
+    font-size: clamp(20px, 4vw, 50px);;
     color: #ffffff;
-    text-shadow: 0.3rem 0.3rem #000000;
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
