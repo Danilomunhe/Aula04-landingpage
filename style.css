@@ -38,8 +38,30 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
-#learn-more{
-    background-color: #FAE12C;
+.botao      {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    
+    
+}
+#insta{
+    
+    background-color: #DD2A7B;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;   
+    border-style: none;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:  clamp(1px, 05vw, 20px);
+}
+#git{
+    background-color: #000000;
+    color: #ffffff;
     width: 200px;
     height: 40px;
     border-style: none;
@@ -47,5 +69,17 @@ h1{
     cursor: pointer;
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size:  clamp(1px, 05vw, 20px);
+}
+#face{
+    background-color: #3b5998;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:  clamp(1px, 05vw, 20px);
 }
